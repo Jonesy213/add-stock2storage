@@ -1,0 +1,199 @@
+/*-- Add Stock --*/
+
+#add-stock{
+	background-color: #f4f4f4;
+	margin:auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding:25px;
+	width:450px;
+	border-radius: 15px;
+	box-shadow: 0px 2px 4px 0px gray;
+}	
+
+#add-stock h1{
+	color:#000;
+	font-size: 30px;
+	float:left;
+}
+
+.add-header select{
+	float:right;
+}
+
+
+#add-stock label{
+	/*border:1px solid #000;*/
+	color:#000;
+	padding: 3px 0;
+
+}
+
+#add-stock input, #add-stock select, #add-stock textarea{
+	color: #000;
+	font: normal 16px "Lucida Grande", Helvetica, sans-serif;
+	padding: 3px;
+	font-size: 14px;
+}
+
+
+#add-stock label{
+	display: block;
+}
+
+.stockadd-error-msg{
+	color:red;
+	font-style: italic;
+	margin:0;
+	padding:0;
+	visibility: hidden;
+}
+
+.add-stock-row1, .add-stock-row2, .add-stock-row3, .add-stock-row4{
+	margin-top:5px;
+}
+
+.add-stock-row1 .ticker, .add-stock-row1 .amount{
+	float:left;
+}
+
+.amount{
+	padding-left: 25px;
+}
+
+.add-stock-row3 .price, .add-stock-row3 .fee{
+	float:left;
+}
+
+.fee{
+	padding-left: 25px;
+}
+
+.add-stock-row4 .stop-limit, .add-stock-row4 .stop-limit-type{
+	float:left;
+}
+
+.stop-limit-type{
+	padding-left: 25px;
+}
+
+.stop-limit-type .limit-options{
+	font-size: 14px;
+}
+
+.add-stock-row5 textarea{
+	width:100%;
+}
+
+#add-stock input[type='submit']{
+	color:#fff;
+	border-radius: 5px;
+	background: #336EFF;
+	margin-top: 10px;
+	padding: 10px;
+	width:100px;
+	border: 0;
+}
+
+#add-stock input[type='submit']:hover{
+	background:#2E65E8;
+}
+
+.clr{
+	clear:both;
+}
+
+
+
+i{
+	color:#888;
+}
+
+strong{
+	color:red;
+}
+
+#stock-list{
+	margin-top: 10px;
+
+}
+
+
+.a-new-stock{
+	background-color: #91FFB4;
+	color: #000;
+	border: 1px solid #f4f4f4;
+	border-radius: 5px;
+	font-size: 12px;
+	font-style: normal;
+	width:400px;
+	height: 40px;
+	box-shadow: 0px 2px 4px 0px gray;
+	list-style: none;
+	padding:5px;
+	margin: 5px 0;
+}
+
+.a-new-stock div{
+	float:left;
+	padding-right: 20px;
+}
+
+
+/* Stock Table */
+.stock-table{
+	background-color: #fff;
+	color: #000;
+	font-style: normal;
+	margin: auto;
+	margin-top: 25px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.stock-table thead{
+	font-size: 13px;
+	font-style: bold;
+	background-color: #C8FFD2;
+	border-bottom: 1px solid #aaa;
+}
+
+.stock-table tr{
+	height: 35px;
+	border-bottom: 1px solid #ccc;
+}
+
+.stock-table td{
+	padding:10px;
+	font-size: 12px;
+	color: #000;
+}
+
+.stock-table tr:nth-child(even){
+	background-color: #f4f4f4;
+}
+
+.remove-btn{
+	background-color: red;
+	color: #fff;
+	padding:2px 4px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+/* CSS for success and fail of validation */
+#add-stock .success{
+	border-color: #f4f4f4;
+}
+
+#add-stock .error{
+	border-color: #F96967;
+}
+
+#add-stock .error-msg-top{
+	visibility: visible;
+}
+
+
+
+
