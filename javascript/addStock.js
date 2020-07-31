@@ -305,7 +305,7 @@ function isValidDate(date) {
 // Event: Remove Stock
 document.querySelector('.stock-table').addEventListener('click', (e) => {
 	const id = Number(e.target.parentElement.parentElement.firstElementChild.innerText);
-	if(e.target.className = 'remove-btn'){
+	if(e.target.className === 'remove-btn'){
 		if(confirm('Are you sure?')){
 			UI.removeStockFromList(e.target);
 
